@@ -43,6 +43,7 @@ dependencies:
 
 
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -59,6 +60,7 @@ flutter_native_splash:
   background_image: 'assets/background.png'
   android: true
   ios: true
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:splash_screen_flutter/screens/animated_splash_lottie.dart';
+import 'package:splash_screen_flutter/screens/animated_splash_screen.dart';
 import 'package:splash_screen_flutter/screens/native_splash_screen.dart';
 
 void main() {
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: NativeSplash() ,
+      home: AnimatedSplashSc() ,
     );
   }
 }
